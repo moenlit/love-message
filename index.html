@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap">
+    <style>
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        body {
+            background-color: #FFC0CB; /* Pink muda */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .love-message {
+            font-family: 'Montserrat', sans-serif; /* Menggunakan Montserrat */
+            font-size: 20px; /* Ukuran font lebih kecil */
+            font-weight: 700; /* Bold */
+            color: #FF69B4; /* Pink */
+            text-align: center;
+            white-space: pre-wrap; /* Menjaga spasi dan pemisahan baris */
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+    <title>Love Message</title>
+</head>
+<body>
+    <p class="love-message">Love u to the moon and back iooo <br> ❤️🌜</p>
+</body>
+</html>
